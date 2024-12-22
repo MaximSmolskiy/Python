@@ -7,9 +7,9 @@ from __future__ import annotations
 
 def calculate_waiting_times(duration_times: list[int]) -> list[int]:
     """
-    This function calculates the waiting time of some processes that have a
-    specified duration time.
+    This function calculates the waiting time of some processes that have a specified duration time.
         Return: The waiting time for each process.
+
     >>> calculate_waiting_times([5, 10, 15])
     [0, 5, 15]
     >>> calculate_waiting_times([1, 2, 3, 4, 5])
@@ -31,6 +31,7 @@ def calculate_turnaround_times(
         Return: The time difference between the completion time and the
                 arrival time.
                 Practically waiting_time + duration_time
+
     >>> calculate_turnaround_times([5, 10, 15], [0, 5, 15])
     [5, 15, 30]
     >>> calculate_turnaround_times([1, 2, 3, 4, 5], [0, 1, 3, 6, 10])
@@ -48,6 +49,7 @@ def calculate_average_turnaround_time(turnaround_times: list[int]) -> float:
     """
     This function calculates the average of the turnaround times
         Return: The average of the turnaround times.
+
     >>> calculate_average_turnaround_time([0, 5, 16])
     7.0
     >>> calculate_average_turnaround_time([1, 5, 8, 12])
@@ -62,6 +64,7 @@ def calculate_average_waiting_time(waiting_times: list[int]) -> float:
     """
     This function calculates the average of the waiting times
         Return: The average of the waiting times.
+
     >>> calculate_average_waiting_time([0, 5, 16])
     7.0
     >>> calculate_average_waiting_time([1, 5, 8, 12])
