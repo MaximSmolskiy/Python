@@ -139,6 +139,7 @@ def find_neighborhood(solution, dict_of_neighbours):
         from the solution that the method took as an input
 
     Example:
+
     >>> find_neighborhood(['a', 'c', 'b', 'd', 'e', 'a'],
     ...                   {'a': [['b', '20'], ['c', '18'], ['d', '22'], ['e', '26']],
     ...                    'c': [['a', '18'], ['b', '10'], ['d', '23'], ['e', '24']],

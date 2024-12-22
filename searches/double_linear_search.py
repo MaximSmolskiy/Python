@@ -7,6 +7,7 @@ def double_linear_search(array: list[int], search_item: int) -> int:
 
     :param array: the array to be searched
     :param search_item: the item to be searched
+
     :return the index of search_item, if search_item is in array, else -1
 
     Examples:

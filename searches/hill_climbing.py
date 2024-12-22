@@ -99,12 +99,14 @@ def hill_climbing(
     move towards the neighbor which provides the maximum (or minimum) change.
     We keep doing this until we are at a state where we do not have any
     neighbors which can improve the solution.
+
         Args:
             search_prob: The search state at the start.
             find_max: If True, the algorithm should find the maximum else the minimum.
             max_x, min_x, max_y, min_y: the maximum and minimum bounds of x and y.
             visualization: If True, a matplotlib graph is displayed.
             max_iter: number of times to run the iteration.
+
         Returns a search state having the maximum (or minimum) score.
     """
     current_state = search_prob

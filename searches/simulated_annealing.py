@@ -34,6 +34,7 @@ def simulated_annealing(
         start_temperate: the initial temperate of the system when the program starts.
         rate_of_decrease: the rate at which the temperate decreases in each iteration.
         threshold_temp: the threshold temperature below which we end the search
+
     Returns a search state having the maximum (or minimum) score.
     """
     search_end = False

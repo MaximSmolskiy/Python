@@ -13,6 +13,7 @@ def interpolation_search(sorted_collection: list[int], item: int) -> int | None:
 
     Returns:
         int: The index of the found item, or None if the item is not found.
+
     Examples:
     >>> interpolation_search([1, 2, 3, 4, 5], 2)
     1
