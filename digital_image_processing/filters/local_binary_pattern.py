@@ -32,8 +32,7 @@ def local_binary_value(image: np.ndarray, x_coordinate: int, y_coordinate: int) 
     :param image: the image to be processed
     :param x_coordinate: x coordinate of the pixel
     :param y_coordinate: the y coordinate of the pixel
-    :return: The decimal value of the binary value of the pixels
-    around the center pixel.
+    :return: The decimal value of the binary value of the pixels around the center pixel.
     """
     center = image[x_coordinate][y_coordinate]
     powers = [1, 2, 4, 8, 16, 32, 64, 128]

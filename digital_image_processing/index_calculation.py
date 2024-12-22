@@ -11,7 +11,7 @@ import numpy as np
 class IndexCalculation:
     """
     # Class Summary
-            This algorithm consists in calculating vegetation indices, these
+        This algorithm consists in calculating vegetation indices, these
         indices can be used for precision agriculture for example (or remote
         sensing). There are functions to define the data and to calculate the
         implemented indices.
@@ -181,6 +181,7 @@ class IndexCalculation:
         """
         Atmospherically Resistant Vegetation Index 2
         https://www.indexdatabase.de/db/i-single.php?id=396
+
         :return: index
             -0.18+1.17*(self.nir-self.red)/(self.nir+self.red)
         """
@@ -225,7 +226,7 @@ class IndexCalculation:
 
     def bndvi(self):
         """
-            Normalized Difference self.nir/self.blue self.blue-normalized difference
+        Normalized Difference self.nir/self.blue self.blue-normalized difference
         vegetation index
         https://www.indexdatabase.de/db/i-single.php?id=135
         :return: index
@@ -474,7 +475,7 @@ class IndexCalculation:
 
     def ngrdi(self):
         """
-            Normalized Difference self.green/self.red Normalized self.green self.red
+        Normalized Difference self.green/self.red Normalized self.green self.red
         difference index, Visible Atmospherically Resistant Indices self.green
         (VIself.green)
         https://www.indexdatabase.de/db/i-single.php?id=390
