@@ -27,6 +27,7 @@ class BezierCurve:
         The basis function determines the weight of each control point at time t.
             t: time value between 0 and 1 inclusive at which to evaluate the basis of
                the curve.
+
         returns the x, y values of basis function at time t
 
         >>> curve = BezierCurve([(1,1), (1,2)])
