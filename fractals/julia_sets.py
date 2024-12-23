@@ -13,7 +13,7 @@ https://en.wikipedia.org/wiki/File:Julia_z2%2B0,25.png
 - Other examples from https://en.wikipedia.org/wiki/Julia_set
 - An exponential map Julia set, ambiantly homeomorphic to the examples in
 https://www.math.univ-toulouse.fr/~cheritat/GalII/galery.html
- and
+and
 https://ddd.uab.cat/pub/pubmat/02141493v43n1/02141493v43n1p27.pdf
 
 Remark: Some overflow runtime warnings are suppressed. This is because of the
@@ -67,7 +67,7 @@ def eval_quadratic_polynomial(c_parameter: complex, z_values: np.ndarray) -> np.
 def prepare_grid(window_size: float, nb_pixels: int) -> np.ndarray:
     """
     Create a grid of complex values of size nb_pixels*nb_pixels with real and
-     imaginary parts ranging from -window_size to window_size (inclusive).
+    imaginary parts ranging from -window_size to window_size (inclusive).
     Returns a numpy array.
 
     >>> prepare_grid(1,3)

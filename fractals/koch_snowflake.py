@@ -6,10 +6,12 @@ Description
     successive stage is formed by adding outward bends to each side of the
     previous stage, making smaller equilateral triangles.
     This can be achieved through the following steps for each line:
-        1. divide the line segment into three segments of equal length.
-        2. draw an equilateral triangle that has the middle segment from step 1
+
+    1. divide the line segment into three segments of equal length.
+    2. draw an equilateral triangle that has the middle segment from step 1
         as its base and points outward.
-        3. remove the line segment that is the base of the triangle from step 2.
+    3. remove the line segment that is the base of the triangle from step 2.
+
     (description adapted from https://en.wikipedia.org/wiki/Koch_snowflake )
     (for a more detailed explanation and an implementation in the
     Processing language, see  https://natureofcode.com/book/chapter-8-fractals/
