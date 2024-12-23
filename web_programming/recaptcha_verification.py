@@ -1,13 +1,17 @@
 """
 Recaptcha is a free captcha service offered by Google in order to secure websites and
-forms.  At https://www.google.com/recaptcha/admin/create you can create new recaptcha
+forms. At https://www.google.com/recaptcha/admin/create you can create new recaptcha
 keys and see the keys that your have already created.
-* Keep in mind that recaptcha doesn't work with localhost
-When you create a recaptcha key, your will get two separate keys: ClientKey & SecretKey.
-ClientKey should be kept in your site's front end
-SecretKey should be kept in your site's  back end
 
-# An example HTML login form with recaptcha tag is shown below
+Keep in mind that recaptcha doesn't work with localhost
+
+When you create a recaptcha key, your will get two separate keys: ClientKey & SecretKey:
+    * ClientKey should be kept in your site's front end
+    * SecretKey should be kept in your site's  back end
+
+An example HTML login form with recaptcha tag is shown below:
+
+.. code-block:: html
 
     <form action="" method="post">
         <h2 class="text-center">Log in</h2>

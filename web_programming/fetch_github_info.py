@@ -1,21 +1,23 @@
 #!/usr/bin/env python3
 """
-Created by sarathkaul on 14/11/19
-Updated by lawric1 on 24/11/20
+| Created by sarathkaul on 14/11/19
+| Updated by lawric1 on 24/11/20
 
-Authentication will be made via access token.
-To generate your personal access token visit https://github.com/settings/tokens.
+| Authentication will be made via access token.
+| To generate your personal access token visit https://github.com/settings/tokens.
 
-NOTE:
-Never hardcode any credential information in the code. Always use an environment
-file to store the private information and use the `os` module to get the information
-during runtime.
+.. note::
+    Never hardcode any credential information in the code. Always use an environment
+    file to store the private information and use the ``os`` module to get the information
+    during runtime.
 
-Create a ".env" file in the root directory and write these two lines in that file
-with your token::
+Create a ``.env`` file in the root directory and write these two lines in that file
+with your token:
 
-#!/usr/bin/env bash
-export USER_TOKEN=""
+.. code-block:: bash
+
+    #!/usr/bin/env bash
+    export USER_TOKEN=""
 """
 
 from __future__ import annotations

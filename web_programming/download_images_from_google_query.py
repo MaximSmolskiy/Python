@@ -18,18 +18,19 @@ def download_images_from_google_query(query: str = "dhaka", max_images: int = 5)
     Searches google using the provided query term and downloads the images in a folder.
 
     Args:
-         query : The image search term to be provided by the user. Defaults to
-        "dhaka".
-        image_numbers : [description]. Defaults to 5.
+        * `query` : The image search term to be provided by the user. Defaults to ``dhaka``.
+        * `max_images` : Maximum number of images. Defaults to ``5``.
 
     Returns:
         The number of images successfully downloaded.
 
-    # Comment out slow (4.20s call) doctests
-    # >>> download_images_from_google_query()
-    5
-    # >>> download_images_from_google_query("potato")
-    5
+    .. code-block:: python
+
+        # Comment out slow (4.20s call) doctests
+        # >>> download_images_from_google_query()
+        5
+        # >>> download_images_from_google_query("potato")
+        5
     """
     max_images = min(max_images, 50)  # Prevent abuse!
     params = {
