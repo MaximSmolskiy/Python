@@ -4,7 +4,6 @@ Author Anurag Kumar | anuragkumarak95@gmail.com | git/anuragkumarak95
 Simple example of fractal generation using recursion.
 
 What is the Sierpiński Triangle?
-
     The Sierpiński triangle (sometimes spelled Sierpinski), also called the
     Sierpiński gasket or Sierpiński sieve, is a fractal attractive fixed set with
     the overall shape of an equilateral triangle, subdivided recursively into
