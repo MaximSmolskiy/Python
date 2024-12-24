@@ -4,7 +4,9 @@ import math
 
 
 def prime_factors(n: int) -> list:
-    """Find Prime Factors.
+    """
+    Find Prime Factors.
+
     >>> prime_factors(100)
     [2, 2, 5, 5]
     >>> prime_factors(0)
@@ -32,7 +34,9 @@ def prime_factors(n: int) -> list:
 
 
 def number_of_divisors(n: int) -> int:
-    """Calculate Number of Divisors of an Integer.
+    """
+    Calculate Number of Divisors of an Integer.
+
     >>> number_of_divisors(100)
     9
     >>> number_of_divisors(0)
@@ -64,7 +68,9 @@ def number_of_divisors(n: int) -> int:
 
 
 def sum_of_divisors(n: int) -> int:
-    """Calculate Sum of Divisors.
+    """
+    Calculate Sum of Divisors.
+
     >>> sum_of_divisors(100)
     217
     >>> sum_of_divisors(0)
@@ -96,7 +102,9 @@ def sum_of_divisors(n: int) -> int:
 
 
 def euler_phi(n: int) -> int:
-    """Calculate Euler's Phi Function.
+    """
+    Calculate Euler's Phi Function.
+
     >>> euler_phi(100)
     40
     >>> euler_phi(0)
